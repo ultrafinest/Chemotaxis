@@ -41,7 +41,7 @@ class Bacteria
 {
   int bacX;
   int bacY;
-  float bacSize;
+  int bacSize;
   int bacColor;
   Bacteria(){
     bacColor = color(0, 0, 0);
