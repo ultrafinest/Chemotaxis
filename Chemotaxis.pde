@@ -39,12 +39,15 @@ void mouseClicked(){
 }
 class Bacteria
 {
-  int bacX = (int)(Math.random() * 400);
-  int bacY = (int)(Math.random() * 400);
-  int bacSize = 50;
+  int bacX;
+  int bacY;
+  float bacSize;
   int bacColor;
   Bacteria(){
     bacColor = color(0, 0, 0);
+    bacX = (int)(Math.random() * 400);
+    bacY = (int)(Math.random() * 400);
+    bacSize = 50;
   }
   void show(){
     fill((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*255));
