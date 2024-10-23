@@ -11,7 +11,7 @@ void setup()
 
 void draw(){
   for(int i = 0; i < colony.length; i++){
-    colony[i].bacSize = 50;
+    colony[i].bacSize = (int)(Math.random()*50);
     colony[i].show();
     if(colony[i].bacX >= 190)
       colony[i].bacX = colony[i].bacX - (int)(Math.random()*4);
